@@ -28,7 +28,7 @@ import java.util.zip.Inflater;
  */
 public class Tio {
     /**
-     * The main TIO server, run by Dennis of codegolf.stackexchange.com, located add {@code https://tio.run/}.
+     * The main TIO server, run by Dennis of codegolf.stackexchange.com, located at {@code https://tio.run/}.
      */
     public static final Tio MAIN;
 
