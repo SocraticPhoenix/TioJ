@@ -10,8 +10,8 @@ apply plugin : 'idea'
 //End Plugins
 
 //Program Specific Variables
-def programVersion = ""
-def programGroup = ""
+def programVersion = "0.0.1"
+def programGroup = "com.gmail.socraticphoenix"
 //End Variables
 
 //Gradle Variables
@@ -67,15 +67,3 @@ configurations.all {
     resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 //End configurations
-
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-}
