@@ -11,7 +11,8 @@ public class QuickTest {
                 .setCode("public class Main {\n" +
                         "\n" +
                         "    public static void main(String[] args) {\n" +
-                        "        System.out.println(\"Hello, World!\");\n" +
+                        "        System.out.println(\"Hello world!\");\n" +
+                        "        throw new RuntimeException();\n" +
                         "    }\n" +
                         "    \n" +
                         "}\n")

@@ -178,7 +178,7 @@ public class Tio {
             }
         }
 
-        return index + arg.length < target.length;
+        return index + arg.length <= target.length;
     }
 
 }
